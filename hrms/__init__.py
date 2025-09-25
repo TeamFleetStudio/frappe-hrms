@@ -10,3 +10,5 @@ def refetch_resource(cache_key: str | list, user=None):
 		user=user or frappe.session.user,
 		after_commit=True,
 	)
+
+# sample text
