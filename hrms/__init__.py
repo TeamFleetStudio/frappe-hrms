@@ -11,4 +11,3 @@ def refetch_resource(cache_key: str | list, user=None):
 		after_commit=True,
 	)
 
-# sample text
